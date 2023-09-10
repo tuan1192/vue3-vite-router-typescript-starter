@@ -1,0 +1,33 @@
+.OCButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 65px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.OCButton .txtIn {
+  font-size: 24px;
+}
+
+.OCButton .arrow {
+  width: 0;
+  height: 0;
+  margin-left: 10px;
+  border-style: solid;
+  border-width: 11px 0 11px 18px;
+  border-color: transparent transparent transparent #fff;
+}
+
+@media only screen and (max-width: 767px) {
+  .OCButton .inner {
+    height: 55px;
+  }
+  .OCButton .txtIn {
+    font-size: 18px;
+  }
+  .OCButton .arrow {
+    border-width: 8px 0 8px 12px;
+  }
+}

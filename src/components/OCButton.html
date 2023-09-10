@@ -1,0 +1,11 @@
+<button
+  class="OCButton"
+  :to="to"
+  :href="href"
+  :target="target"
+  :class="['inner', bgColor, {'hover': !disable}]"
+  @click="handleClick"
+>
+  <span class="txtIn fBold fWhite">{{title}}</span>
+  <span v-if="arrow" class="arrow"></span>
+</button>
